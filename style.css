@@ -1,16 +1,29 @@
 html, body{
     background-image:url(space1.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size:cover;
     height:100%;
 }
+.inner p{
+    font-size: 25px;
+    color:whitesmoke;
+    margin-right:auto;
+    font-family: 'Varela Round', sans-serif;
+}
+.outer p{
+    
+    font-size: 40px;
+    color:whitesmoke;
+    margin-right:auto;
+    font-family: 'Varela Round', sans-serif;
+}
 .solar_system{
-    width:100%;
-    height:100%;
+    
     display:flex;
     justify-content: center;
     align-items: center;
-    
+    height:100%;
     
 }
 .sun img{
@@ -119,18 +132,8 @@ html, body{
 }
 .o_mercury img{
     position:absolute;
-    animation-name: mercury_revolve;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
     height: 60px;
     width: 60px;
-}
-
-#mercury_name{
-    color: white;
-    font-size: 4px;
-    font-family: 'Varela Round', sans-serif;
 }
 /* venus */
 .o_venus{
@@ -149,10 +152,6 @@ html, body{
     position:absolute;
     height:78px;
     width: 78px;
-    animation-name: venus_revolve;
-    animation-duration: 18s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
     
 }
 /* earth */
@@ -216,10 +215,6 @@ html, body{
     position:absolute;
     height:60px;
     width: 60px;
-    animation-name: mars_revolve;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
     box-shadow: 0 0 10px black;
         border-radius:100%;
 }
@@ -240,10 +235,7 @@ html, body{
     position:absolute;
     height:140px;
     width: 140px;
-    animation-name: jupiter_revolve;
-    animation-duration: 45s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+   
     box-shadow: 0 0 10px black;
         border-radius:100%;
 }
@@ -264,10 +256,6 @@ html, body{
     position:absolute;
     height:130px;
     width: 260px;
-    animation-name: saturn_revolve;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 /* uranus */
 .o_uranus{
@@ -288,10 +276,7 @@ html, body{
         position:absolute;
         height:140px;
         width: 140px;
-        animation-name: uranus_revolve;
-        animation-duration: 105s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
+        
         
 }
 /* neptune */
@@ -312,12 +297,97 @@ html, body{
         position:absolute;
         height:142px;
         width: 270px;
-        animation-name: neptune_revolve;
-        animation-duration: 120s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
         
 }
 img{
     filter: brightness(90%)
 }
+
+.jupiter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 450px;
+    animation-name: jupiter_revolve;
+    animation-duration: 55s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.saturn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    width: 550px;
+    animation-name: saturn_revolve;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.uranus{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width: 420px;
+    animation-name: uranus_revolve;
+    animation-duration: 105s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.neptune{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width: 500px;
+    animation-name: neptune_revolve;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.mercury{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width: 170px;
+    animation-name: mercury_revolve;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.mercury p{
+    padding-bottom:5px;
+    font-size:15px;
+}
+.earth p{
+    position:absolute;
+    padding-right: 200px;
+}
+.venus{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width: 240px;
+    animation-name: venus_revolve;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.mars{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width: 210px;
+    animation-name: mars_revolve;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
