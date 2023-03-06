@@ -3,7 +3,6 @@ html, body{
     background-repeat: no-repeat;
     background-size:cover;
     height:100%;
-    
 }
 .solar_system{
     width:100%;
@@ -124,8 +123,8 @@ html, body{
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 
 #mercury_name{
@@ -148,8 +147,8 @@ html, body{
 }
 .o_venus img{
     position:absolute;
-    height:70px;
-    width: 70px;
+    height:78px;
+    width: 78px;
     animation-name: venus_revolve;
     animation-duration: 18s;
     animation-iteration-count: infinite;
@@ -239,8 +238,8 @@ html, body{
 }
 .o_jupiter img{
     position:absolute;
-    height:150px;
-    width: 150px;
+    height:140px;
+    width: 140px;
     animation-name: jupiter_revolve;
     animation-duration: 45s;
     animation-iteration-count: infinite;
