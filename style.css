@@ -5,6 +5,9 @@ html, body{
     background-size:cover;
     height:100%;
 }
+p{
+    z-index: 100;
+}
 .inner p{
     font-size: 25px;
     color:whitesmoke;
