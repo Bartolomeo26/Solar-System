@@ -1,9 +1,16 @@
 html, body{
-    background-image:url(space1.png);
+    background-image:url(images/space1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-    height:100%;
+    height: 100%;
+    
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 p{
     z-index: 100;
@@ -26,7 +33,7 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    height:100%;
+    
     
 }
 .sun img{
